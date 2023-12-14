@@ -3,7 +3,7 @@ package classObjectDataEncapsulation;
 public class Student3 {
     //    Thuộc tính
     private String studentId;
-    private String fullName;
+    private FullName fullName;
     private float avgGrade;
     private String address;
     private String email;
@@ -20,15 +20,20 @@ public class Student3 {
         }
     }
 
-    public String getFullName() {
+    public FullName getFullName() {
         return fullName;
     }
 
     public void setFullName(String fullName) {
-        if (!isValid(fullName)) {
+        String[] names = fullName.split(" ");
+        FullName myName = new FullName();
+        myName.firstName = names[names.length - 1];
+        myName.lastName = names[0];
+
+        if (!isValid(myName)) {
             showError("Tên không hợp lệ");
         } else {
-            this.fullName = fullName;
+            this.fullName = myName;
 
         }
     }
@@ -40,11 +45,11 @@ public class Student3 {
      * @param fullName
      * @return
      */
-    private boolean isValid(String fullName) {
-        if (fullName.isEmpty()) {
+    private boolean isValid(FullName fullName) {
+        if (fullName.firstName.isEmpty()) {
             return false;
         }
-        if (fullName.matches(".*[^a-zA-Z\\s]+.*")) {
+        if (fullName.firstName.matches(".*[^a-zA-Z\\s]+.*")) {
             return false;
         }
         return true;
@@ -80,5 +85,11 @@ public class Student3 {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    private class FullName {
+        private String firstName;
+        private String lastName;
+        private String middleName;
     }
 }

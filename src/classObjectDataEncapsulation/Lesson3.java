@@ -4,11 +4,11 @@ public class Lesson3 {
     public static void main(String[] args) {
 //        TÍNH ĐÓNG GÓI DỮ LIỆU
         Student3 tony = new Student3();
-        tony.setFullName("Tony*");
+        tony.setFullName("Tony Stark");
         tony.setStudentId("1");
         tony.setAvgGrade(3.6f);
 //        tony.setAddress("");
-        String fullName = tony.getFullName();
+        var fullName = tony.getFullName();
 
 
         System.out.println("Điểm TB: " + tony.getAvgGrade());
