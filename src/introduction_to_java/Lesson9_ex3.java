@@ -2,7 +2,7 @@ package introduction_to_java;
 
 import java.time.LocalDateTime;
 
-public class Lesson9_3 {
+public class Lesson9_ex3 {
     public static void main(String[] args) {
         var currentTime = LocalDateTime.now();
         System.out.printf("Năm: %ty%n", currentTime);

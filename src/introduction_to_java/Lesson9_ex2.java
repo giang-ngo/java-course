@@ -1,6 +1,6 @@
 package introduction_to_java;
 
-public class Lesson9_2 {
+public class Lesson9_ex2 {
     public static void main(String[] args) {
         var fullName = "Họ và tên";
         var address = "Địa chỉ";

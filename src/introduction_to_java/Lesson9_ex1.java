@@ -1,6 +1,6 @@
 package introduction_to_java;
 
-public class Lesson9 {
+public class Lesson9_ex1 {
     public static void main(String[] args) {
 //        Ví dụ 1:
 //        long number = 999999999L;
