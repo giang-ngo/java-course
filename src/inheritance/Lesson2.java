@@ -24,13 +24,13 @@ public class Lesson2 {
         if (fish instanceof Fish) {
 //            Animal animal = new Cat();
             Fish newFish = (Fish) fish;
-            System.out.println("ÉP sang đối tượng Fish thành công");
+            System.out.println("Ép sang đối tượng Fish thành công");
         }
 
         if (animal instanceof Cat) {
 //            Animal animal = new Cat();
             Cat tom = (Cat) animal;
-            System.out.println("Ép sang đối tuươợng của lớp Cat thành công");
+            System.out.println("Ép sang đối tượng của lớp Cat thành công");
         }
 
     }
