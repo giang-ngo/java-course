@@ -1,0 +1,11 @@
+Khi nào sử dụng abstract class?
+- Sử dụng abstract class nếu bạn có 1 trong các tiêu chí sau:
+      +  Nếu bạn có một nhóm các lớp liên quan cần chia sẻ chung một đoạn code, tính năng nào đó. Bạn có thể đưa đoạn code đó hay tính năng đó vào lớp abstract và các lớp con có liên quan sẽ extends lớp abstract này.
+      +  Bạn mong đợi rằng các lớp kế thừa lớp abstract của bạn có chung nhiều trường, phương thức hoặc mong muốn có thể sử dụng các access modifier khác chứ không chỉ là public.
+      +  Bạn muốn khai báo các trường non-static, non-final. Nhờ đó bạn có thể định nghĩa các phương thức có thể truy cập và sửa đổi các trạng thái của từng đối tượng.
+Khi nào sử dụng interface?
+- Sử dụng interface trong các trường hợp sau:
+      +  Đạt được tính trừu tượng hoàn toàn. Tất cả các phương thức được định ra chưa có phần thân thực thi mà cần được thực thi ở các lớp con implements nó.
+      +  Muốn đạt được tính chất đa kế thừa.
+      +  Muốn cho các lớp không liên quan đến nhau cũng có thể implements interface.
+      +  Bạn muốn chỉ định các hành vi cần thực hiện nhưng không quan tâm các hành vi đó sẽ được thực hiện như nào, do lớp nào.
