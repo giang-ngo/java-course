@@ -1,3 +1,3 @@
-# Java-from-basic-to-advanced
+### Java-from-basic-to-advanced
 
-These are examples in java written in intellij idea ultimate
+This is a set of `simple, basic examples` in Java written in IntelliJ IDEA following coding conventions.

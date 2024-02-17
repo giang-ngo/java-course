@@ -2,7 +2,7 @@ package methods;
 
 import java.util.Scanner;
 
-public class Lesson4 {
+public class Lesson5 {
     public static void main(String[] args) {
 //    ĐỆ QUY
         Scanner input = new Scanner(System.in);
