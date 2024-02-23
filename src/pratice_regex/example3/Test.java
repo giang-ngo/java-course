@@ -26,12 +26,12 @@ import java.util.Scanner;
 
 
 /**
- * Ví dụ 4: Kiểm tra định dạng email
+ * Ví dụ 4: Kiểm tra định dạng password
  * <br>
  * Định dạng mật khẩu của tài khoản người dùng trong một hệ thống nào đó được cho như sau:
  * Dài tối thiểu 8 kí tự
  * Bao gồm cả kí tự chữ cái thường, chữ cái hoa
- * Chứa tối thiểu 1 kí tự số và 1 kí tự đặc biệt(~!@#$%^&*)
+ * Chứa tối thiểu 1 kí tự số và 1 kí tự đặc biệt(~!@#$%^&.*)
  * Mật khẩu không được trùng với địa chỉ email của người dùng
  * Ví dụ email của người dùng là thantrieu@gmail.com thì mật khẩu hợp lệ là:
  * thanTH27@blabla

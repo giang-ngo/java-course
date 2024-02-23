@@ -54,7 +54,7 @@ public class User {
         var regex2 = "^.*[a-z]+.*$";
         var regex3 = "^.*[A-Z]+.*$";
         var regex4 = "^.*[0-9]+.*$";
-        var regex5 = "^.*[~!@#$%^&*]+.*$";
+        var regex5 = "^.*[~!@#$%^&.*]+.*$";
         var regex6 = email;
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(password);
