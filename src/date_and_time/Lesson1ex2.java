@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class Lesson1_ex2 {
+public class Lesson1ex2 {
     public static void main(String[] args) {
         var format = "dd/MM/yyyy";
         SimpleDateFormat dateFormat = new SimpleDateFormat(format);

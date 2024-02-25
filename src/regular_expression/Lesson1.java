@@ -6,8 +6,14 @@ import java.util.regex.Pattern;
 public class Lesson1 {
     public static void main(String[] args) {
         String str = "Dear Karly\nIf after 1-2 months nothing changes, I want to go somewhere with you          ";
-        String str2 = "Anh ơi, em nghĩ chúng mình không hợp nhau đâu." +
-                "Em cung Xữ Nữ còn anh xử sự không có học thức =))";
+        String str2 = "gu của me là me là có ngoại hình và nhìn ngon ;>," +
+                " do đây là public nên me ko tiện nói nhìu, " +
+                "you có thể nhắn riêng cũng đc, " +
+                "hong phải lúc nào me cũng soạn " +
+                "code bài bản ròi spam với you đc, me sẽ học cái khác" +
+                " và me cũng update kiến thức liên tục, " +
+                "các jobs ở cty you ko có lấy 1 vị trí me yêu thích " +
+                "nên sau này chúng ta sẽ ko hợp tác thêm 1 lần nào nữa";
 
         String regex = "\\s";
         Pattern pattern = Pattern.compile(regex);
@@ -22,7 +28,8 @@ public class Lesson1 {
 
 //        var words = str.split(regex);// pattern.split(str);
 
-        var newStr = matcher.replaceFirst("_");
+//        var newStr = matcher.replaceFirst("_");
+        var newStr = matcher.replaceAll("__");
         System.out.println(newStr);
 //        showWords(words);
 

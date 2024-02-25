@@ -3,7 +3,7 @@ package date_and_time;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Lesson1_ex1 {
+public class Lesson1ex1 {
     public static void main(String[] args) {
         Date date = new Date(5 * 24 * 60 * 60 * 1000);
         System.out.println(date);

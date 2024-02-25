@@ -1,0 +1,10 @@
+S1001,Lê Bá Nam,Cần Thơ,CNTT,3.26
+S1002,Hoàng Quốc Tuấn,Hồ Chí Minh,CNTT,3.54
+S1003,Mai Thị Diệu Linh,Vũng Tàu,CNTT,3.71
+S1004,Ngô Quang Trường,Bình Dương,CNTT,3.33
+S1005,Hồ Hoài Anh,Ninh Thuận,CNTT,3.12
+S1006,Nguyễn Ngọc Mai,Đà Nẵng,CNTT,3.95
+S1007,Nguyễn Thị Ngọc Linh,Hà Nội,CNTT,3.18
+S1008,Trần Quang Khải,Hậu Giang,CNTT,3.29
+S1009,Hứa Thùy Dung,Thái Nguyên,CNTT,3.37
+S1010,Lương Đình Vinh,Nghệ An,CNTT,3.59

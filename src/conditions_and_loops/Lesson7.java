@@ -4,49 +4,68 @@ import java.util.Scanner;
 
 public class Lesson7 {
     public static void main(String[] args) {
-////        Ví dụ 1: tìm giá trị đầu tiên trong đoạn [a,b] chia hết cho k!=0
+////        Ví dụ 1
 //        var input = new Scanner(System.in);
 //
-//        System.out.println("Nhập vào 2 số nguyên a<b: ");
-//        var a = input.nextInt();
-//        var b = input.nextInt();
+//        System.out.println("Nhập vào chiều dài, chiều rộng: ");
+//        var m = input.nextInt();
+//        var n = input.nextInt();
 //
-//        System.out.println("Nhập số nguyên k!=0: ");
-//        var k = input.nextInt();
-//
-//        if (k != 0) {
-//            for (int i = a; i <= b; i++) {
-//                if (i % k == 0) {
-//                    System.out.println("Gía trị đâu tiên trong" +
-//                            " đoạn [" + a + "," + b + "]:" + i);
-//                    break;
+//        if (m > 0 && n > 0) {
+//            for (int i = 1; i <= m; i++) {
+//                for (int j = 1; j <= n; j++) {
+//                    System.out.print(" * ");
 //                }
-//            }
+//                System.out.println();
 //
+//            }
 //        } else {
-//            System.out.println("Nhập k khác 0");
+//            System.out.println("Kích thước phải nguyên dương");
 //        }
 
+////        Ví dụ 2
+//
+//        var input = new Scanner(System.in);
+//
+//        System.out.println("Nhập vào chiều dài, chiều rộng: ");
+//        var m = input.nextInt();
+//        var n = input.nextInt();
+//
+//        if (m > 0 && n > 0) {
+//            for (int i = 1; i <= m; i++) {
+//                for (int j = 1; j <= n; j++) {
+//                    if (i == 1 || i == m || j == 1 || j == n) {
+//                        System.out.print(" * ");
+//                    } else {
+//                        System.out.print("   ");
+//
+//                    }
+//                }
+//                System.out.println();
+//
+//            }
+//        } else {
+//            System.out.println("Kích thước phải nguyên dương");
+//        }
 
-//        Ví dụ 2: liệt kê các giá trị trong đoạn [a,b] chia hết cho k!=0
+//        Ví dụ 3
+
         var input = new Scanner(System.in);
-        System.out.println("Nhập vào 2 số nguyên a < b:");
-        var a = input.nextInt();
-        var b = input.nextInt();
 
-        System.out.println("Nhập k!=0: ");
+        System.out.println("Nhập vào chiều cao của tam giác: ");
+        var h = input.nextInt();
 
-        var k = input.nextInt();
-        if (k != 0) {
-            for (int i = a; i <= b; i++) {
-                if (i % k != 0) {
-                    continue;//bỏ qua i chia dư cho k
+
+        if (h > 0) {
+            for (int i = 1; i <= h; i++) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(" * ");
                 }
-                System.out.print(i + " ");
+                System.out.println();
+
             }
         } else {
-            System.out.println("Nhập k khác 0");
+            System.out.println("Chiều cao phải nguyên dương");
         }
-
     }
 }
