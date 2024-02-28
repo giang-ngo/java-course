@@ -1,0 +1,20 @@
+20
+Ha Noi
+Tran Van Hung
+hung@xmail.com
+3,36
+25
+Thai Binh
+Ngo Van Trung
+ngtrung@xmail.com
+3,66
+21
+Da Nang
+Nguyen Thi Loan
+loannana@xmail.com
+3,58
+18
+Ho Chi Minh City
+Le Hoang Nguyen
+lehoangyen@xmail.com
+2,64

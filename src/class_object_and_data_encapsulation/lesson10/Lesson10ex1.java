@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class lesson10 {
+public class Lesson10ex1 {
     public static void main(String[] args) throws FileNotFoundException {
 //        File file = new File("D:\\style.txt");
         File file = new File("C:\\Users\\84339\\IdeaProjects\\LearnJava\\src\\arr.xyz");
